@@ -19,24 +19,26 @@ This project analyzes the lifecycle of corruption cases handled by the **KPK (Ko
 ## 🚨 Key Findings (Data Highlights)
 
 ### 1. The "Big Fish" Index (Top State Losses)
-Analysis of the highest-impact cases reveals a shift towards natural resource exploitation and financial engineering.
+Analysis of the highest-impact cases reveals a massive financial drain, primarily in the Natural Resources and Finance sectors.
 
-| Rank | Case / Scandal | Est. State Loss | Status |
-| :--- | :--- | :--- | :--- |
-| 🥇 | **PT Timah Tbk** | **Rp 300.0 T** | 🚧 Penyidikan |
-| 🥈 | **Tata Kelola Minyak (Pertamina)** | **Rp 193.7 T** | ✅ Tidak Bersalah |
-| 🥉 | **BLBI** | **Rp 138.0 T** | 🚧 Penyidikan |
-| 4 | Duta Palma Group (Lahan Sawit) | Rp 78.0 T | ⚖️ Vonis |
+| Rank | Case / Scandal | Est. Loss (Rp) | Year Revealed | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| 🥇 | **Korupsi PT Timah Tbk** | **300.0 T** | 2024 | 🚧 Penyidikan |
+| 🥈 | **Tata Kelola Minyak (Pertamina)** | **193.7 T** | 2023 | ✅ Tidak Bersalah |
+| 🥉 | **BLBI** | **138.0 T** | 1997 | 🚧 Penyidikan |
+| 4 | Duta Palma Group (Sawit) | 78.0 T | 2022 | ⚖️ Vonis |
+| 5 | PT TPPI (Petrochemical) | 37.8 T | 2011 | ⚖️ Vonis |
+| 6 | PT Asabri (Insurance) | 22.7 T | 2021 | ⚖️ Vonis |
 
 > *Insight: The top 3 cases alone account for more financial loss than the combined budget of several ministries.*
 
-### 2. Institutional Heatmap
-*Which institutions have the highest frequency of cases?*
-*(Based on 2004-2025 historical data)*
+### 2. Institutional Vulnerability Heatmap (2004-2025)
+Based on confirmed investigation data, these institutions have the highest frequency of graft cases:
 
-* **Kementerian/Lembaga:** 515+ Cases (Highest Risk)
-* **Pemerintah Provinsi:** 224+ Cases
-* **BUMN/BUMD:** 192+ Cases
+* 🏛️ **Kementerian/Lembaga:** **515 Kasus** (Highest Risk Sector)
+* 🏢 **Pemerintah Provinsi:** **224 Kasus**
+* 🏭 **BUMN/BUMD:** **192 Kasus**
+* ⚖️ **DPR RI:** **86 Kasus**
 
 ---
 
@@ -87,5 +89,12 @@ git clone [https://github.com/zaghokun/indonesia-corruption-analyze-data.git](ht
 
 jupyter notebook "Olah-Data Kasus Korupsi.ipynb"
 ```
+## 📸 Analysis Preview
+
+### Institutional Vulnerability Index
+> *Top sectors prone to graft based on KPK investigation data (2004-2025).*
+* **Ministries (Kementerian):** 515 Cases 🚨
+* **Provincial Gov (Pemprov):** 224 Cases
+* **State-Owned Enterprises (BUMN):** 192 Cases
 📢 Disclaimer
 This analysis is based on public data available up to Jan 2025. State loss figures are based on prosecutorial estimates and court rulings available at the time of data entry.
