@@ -89,12 +89,5 @@ git clone [https://github.com/zaghokun/indonesia-corruption-analyze-data.git](ht
 
 jupyter notebook "Olah-Data Kasus Korupsi.ipynb"
 ```
-## 📸 Analysis Preview
-
-### Institutional Vulnerability Index
-> *Top sectors prone to graft based on KPK investigation data (2004-2025).*
-* **Ministries (Kementerian):** 515 Cases 🚨
-* **Provincial Gov (Pemprov):** 224 Cases
-* **State-Owned Enterprises (BUMN):** 192 Cases
 📢 Disclaimer
 This analysis is based on public data available up to Jan 2025. State loss figures are based on prosecutorial estimates and court rulings available at the time of data entry.
